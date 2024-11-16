@@ -1,0 +1,12 @@
+[build-systems]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools>=42",
+    "wheel",
+]
+
+[tool.cruft]
+skip = [
+    ".git/",
+    "tests/",
+]
