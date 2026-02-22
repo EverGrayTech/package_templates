@@ -1,0 +1,8 @@
+{
+    "full_name": "First Last",
+    "email": "",
+    "package_name": "Example Package",
+    "package_slug": "{{cookiecutter.package_name.lower().replace(' ', '_').replace('-', '_')}}",
+    "package_url": "https://github.com/EverGrayTech/{{cookiecutter.package_slug}}.git",
+    "description": "This package is for ..."
+}
