@@ -1,5 +1,19 @@
-# Testing & Verification Protocol
-- **Coverage**: Maintain **90% line coverage**.
-- **Fix Order**: Failing tests = Broken Code. Fix the code first. Only update tests if requirements changed.
-- **Tools**: Use `pytest --cov` for Python and `vitest run --coverage` for TypeScript.
-- **Definition of Done**: Task is complete only when all tests pass and coverage is maintained.
+# Testing Standards
+
+## Coverage Requirements
+- Maintain minimum **90% line coverage** for all code
+
+## Testing Tools
+- **Python**: `pytest --cov`
+- **TypeScript**: `vitest run --coverage`
+
+## Test-First Principles
+- Failing tests indicate broken code
+- Fix the code first, not the tests
+- Only update tests when requirements have changed
+
+## Definition of Done
+A task is complete only when:
+- All tests pass
+- Coverage requirements are met
+- Code has been committed

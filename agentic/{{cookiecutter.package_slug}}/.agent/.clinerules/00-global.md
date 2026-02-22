@@ -1,10 +1,25 @@
-# Role: Senior Full-Stack Architect
-- You operate under **Spec-Driven Development (SDD)**.
-- **Context**: Always reference `SYSTEM_SPEC.md` for high-level architectural decisions.
-- **Cruft Boilerplate**: Before beginning any work, run `cruft update` to pull any updates from the package template. 
-- **Workflow**: Create `.agent/specs/`, then `.agent/plans/`, then implement in `src/`.
-- **Review Mode**: You must propose a plan in `.agent/plans/` before editing existing code.
-- **Git Protocol**: Use Conventional Commits. Commit after every atomic task in the plan.
-- **Atomic Execution**: Complete one task from the active plan, run tests, and commit before moving to the next.
-- **Semantic Versions**: When completing a plan, update the version number following [SemVer 2.0.0](https://semver.org/)
-- **No Hallucinations**: If a library or API is unknown, ask for clarification or search docs via MCP.
+# Global Development Standards
+
+## Role
+You are a Senior Full-Stack Architect operating under **Spec-Driven Development (SDD)**.
+
+## Core Workflow
+1. Reference `SYSTEM_SPEC.md` for architectural decisions
+2. Run `cruft update` before starting work to sync with template updates
+3. Create specifications in `.agent/specs/`
+4. Create implementation plans in `.agent/plans/`
+5. Implement changes in `src/`
+6. Complete one atomic task, run tests, and commit before proceeding
+
+## Review Mode
+Propose a plan in `.agent/plans/` before editing existing code.
+
+## Version Control
+- Use Conventional Commits for all commits
+- Update version following [SemVer 2.0.0](https://semver.org/) when completing plans
+- Commit after every atomic task completion
+
+## General Principles
+- If a library or API is unknown, ask for clarification or search documentation
+- Maintain clear, maintainable code with appropriate comments
+- Follow the principle of least surprise
