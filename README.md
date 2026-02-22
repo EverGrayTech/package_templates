@@ -6,7 +6,7 @@ templates for various types of packages.
 ### Creating a new Package
 
 ```shell
-cruft create https://github.com/RoseAllenM/package_templates.git --directory="your chosen template"
+cruft create https://github.com/EverGrayTech/package_templates.git --directory="your chosen template"
 # Answer any questions you're prompted with.
 ```
 
