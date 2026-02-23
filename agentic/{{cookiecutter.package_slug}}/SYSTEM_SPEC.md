@@ -1,9 +1,8 @@
 # System Specification: {{cookiecutter.package_name}}
 
 ## 1. Core Vision
-- **Vision**: A 1-sentence "North Star" for the project.
-- **Problem**: What specific pain point is this solving?
-- **Core User**: Who is the primary persona?
+- **Mission**: To [contribution], so that [impact].
+- **User Story**: As a [type of user], I want [some goal] so that [some reason].
 
 ## 2. Architectural Overview
 - **Backend**: FastAPI (Python 3.12+)
