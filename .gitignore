@@ -10,6 +10,7 @@ __pycache__/
 .coverage.*
 coverage.xml
 .pytest_cache
+.ruff_cache
 *.log
 
 # Distribution & Packaging
@@ -24,6 +25,7 @@ downloads/
 eggs/
 lib/
 lib64/
+node_modules/
 .packagecutter
 parts/
 Pipfile*
