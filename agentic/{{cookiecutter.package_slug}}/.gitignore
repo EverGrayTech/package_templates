@@ -25,6 +25,7 @@ downloads/
 eggs/
 lib/
 lib64/
+node_modules/
 .packagecutter
 parts/
 Pipfile*
