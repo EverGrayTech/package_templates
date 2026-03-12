@@ -23,6 +23,7 @@ classifiers = [
 
 dependencies = [
     "pydantic~=2.12",
+    "typer~=0.16",
     "universal-pathlib~=0.3",
 ]
 
