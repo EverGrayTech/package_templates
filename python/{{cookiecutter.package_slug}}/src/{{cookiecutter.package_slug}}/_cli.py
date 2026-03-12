@@ -1,17 +1,10 @@
 # TODO Remove this file if not in use.
 
-# Imports
-
 import argparse
 import logging
 from typing import Optional
 
-# Globals
-
 logger = logging.getLogger(__name__)
-
-
-# Private Functions
 
 
 def _parse_arguments(args_list: Optional[list[str]]=None) -> argparse.Namespace:
@@ -45,9 +38,6 @@ def _parse_arguments(args_list: Optional[list[str]]=None) -> argparse.Namespace:
     logger.debug("Parsed Arguments:\n\t%s", vars(args))
 
     return args
-
-
-# Functions
 
 
 def run_example(args_list: Optional[list[str]]=None):
